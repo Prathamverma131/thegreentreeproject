@@ -513,7 +513,7 @@
 
 /*Tablet design*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 550px) {
   /*navbar*/
 
   html {
@@ -780,5 +780,156 @@
     margin: 0;
     padding: 0;
     font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  /*navbar*/
+
+  .navbar .container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-end;
+    padding: 0.2rem 1rem;
+  }
+
+  .navbar .heading-container {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+  }
+
+  .navbar .heading-container .heading {
+    width: 20%;
+    gap: 2rem;
+  }
+
+  .navbar .heading-container .nav-items {
+    width: 65%;
+    align-self: self-end;
+  }
+
+  /*hero-section*/
+
+  .hero-section .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  /*take-action-section*/
+
+  .take-action-section .banner {
+    width: 12rem;
+  }
+
+  .take-action-section .container {
+    display: flex;
+  }
+
+  /*what-we-do*/
+
+  .what-we-do .card-container {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .what-we-do .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
+  .what-we-do .content {
+    margin: 0;
+  }
+
+  .what-we-do button {
+    margin: 0;
+  }
+
+  .what-we-do .card-container .card-image {
+    height: 150px;
+    width: 120%;
+    background: yellow;
+    position: relative;
+    margin-top: -3.5rem;
+    margin-left: 0.5rem;
+  }
+
+  /*stories*/
+
+  .stories .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .stories .img-container {
+    /* border: 5px solid black; */
+    width: 100%;
+    order: 2;
+  }
+
+  .stories .wrapper {
+    margin-right: -2rem;
+    z-index: 99;
+    margin-top: 5rem;
+    order: 1;
+  }
+
+  .stories .details {
+    margin: 0;
+    width: 100%;
+  }
+
+  .stories .heading {
+    position: absolute;
+    left: 75%;
+    top: -2.5%;
+    display: inline;
+  }
+
+  /*event*/
+
+  .event .item2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  /*subscribe*/
+
+  .subscribe .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .subscribe .email {
+    margin: 0;
+    width: 55%;
+  }
+
+  /*footer*/
+
+  .footer .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: "a b c d e f g";
+    gap: 2.3rem;
+  }
+
+  .footer .followus {
+    margin-left: 2rem;
+  }
+
+  .footer .learnmore {
+    grid-area: f;
+  }
+
+  .footer .banner {
+    grid-area: g;
   }
 }
