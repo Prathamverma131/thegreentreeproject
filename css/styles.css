@@ -917,19 +917,15 @@
   .footer .container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    grid-template-areas: "a b c d e f g";
+    grid-template-areas: "a b c d e";
     gap: 2.3rem;
   }
 
-  .footer .followus {
-    margin-left: 2rem;
-  }
-
   .footer .learnmore {
-    grid-area: f;
+    grid-area: d;
   }
 
   .footer .banner {
-    grid-area: g;
+    grid-area: e;
   }
 }
