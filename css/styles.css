@@ -850,7 +850,7 @@
 
   .what-we-do .card-container .card-image {
     height: 150px;
-    width: 120%;
+    width: 110%;
     background: yellow;
     position: relative;
     margin-top: -3.5rem;
@@ -873,6 +873,7 @@
   }
 
   .stories .wrapper {
+    height: 450px;
     margin-right: -2rem;
     z-index: 99;
     margin-top: 5rem;
@@ -927,5 +928,30 @@
 
   .footer .banner {
     grid-area: e;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .what-we-do .card-container .card-image {
+    height: 280px;
+  }
+
+  .event .image-container {
+    height: 20rem;
+  }
+  .stories .img-container {
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 1418px) {
+  .event .image-container {
+    height: 28rem;
+  }
+}
+
+@media screen and (min-width: 1640px) {
+  .what-we-do .card-container .card-image {
+    height: 310px;
   }
 }
