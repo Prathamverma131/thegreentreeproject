@@ -945,8 +945,164 @@
 }
 
 @media screen and (min-width: 1418px) {
+  .navbar {
+    padding: 2rem 10rem;
+  }
+
+  .hero-section .container {
+    padding: 5rem 10rem;
+  }
+
+  .take-action-section .container {
+    padding: 4rem 10rem;
+  }
+
+  .what-we-do .container {
+    padding: 5.5rem 10rem;
+  }
+
+  .did-you-know {
+    padding: 8rem 10rem;
+  }
+
+  .stories {
+    padding: 10rem;
+  }
+
+  .event {
+    padding: 1.5rem 10rem;
+  }
+
+  .subscribe {
+    padding: 3rem 10rem;
+  }
+
+  .footer {
+    padding: 3rem 10rem;
+  }
+
   .event .image-container {
     height: 28rem;
+  }
+
+  .navbar .container {
+    align-items: center;
+  }
+  .navbar .heading-container .nav-items {
+    align-self: center;
+  }
+
+  .hero-section .the-issue-body {
+    font-size: 3rem;
+  }
+
+  .hero-section .heading {
+    font-size: 5rem;
+  }
+
+  .take-action-section .heading {
+    font-size: 2rem;
+  }
+
+  .take-action-section .body {
+    font-size: 1rem;
+  }
+
+  .what-we-do .container .heading {
+    font-size: 1rem;
+  }
+
+  .what-we-do .container .sub-heading {
+    font-size: 2.8rem;
+    margin-bottom: 8rem;
+    font-weight: 900;
+  }
+
+  .what-we-do .card-heading {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  .what-we-do .content {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .what-we-do .button-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .what-we-do button {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 1.8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .did-you-know .heading {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .did-you-know button {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .did-you-know .banner {
+    width: auto;
+    left: 2rem;
+
+    padding: 0.75rem 1.5rem;
+    color: #e0e2e7;
+    font-size: 1rem;
+  }
+
+  .did-you-know .card {
+    background: #ffffff;
+    padding: 2rem;
+    text-align: start;
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+
+  .did-you-know .card-heading {
+    font-size: 2.8rem;
+  }
+
+  .did-you-know .card-content {
+    font-size: 1.1rem;
+  }
+
+  .did-you-know .card-footer .images {
+    width: 45px;
+    height: 45px;
+  }
+
+  .stories .quote {
+    font-size: 1.7rem;
+  }
+
+  .stories .details {
+    text-align: start;
+    padding: 3rem;
+    margin-top: 2rem;
+  }
+
+  .stories .img-container {
+    height: 40rem;
+  }
+
+  .stories .heading {
+    position: absolute;
+    left: 62%;
+    top: -2.5%;
+    display: inline;
   }
 }
 
